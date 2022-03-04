@@ -17,6 +17,7 @@
 		02C1C2C127D1BF54009A425F /* SwiftDemosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1C2C027D1BF54009A425F /* SwiftDemosUITests.swift */; };
 		02C1C2C327D1BF54009A425F /* SwiftDemosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1C2C227D1BF54009A425F /* SwiftDemosUITestsLaunchTests.swift */; };
 		02C1C2D027D1C111009A425F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1C2CF27D1C111009A425F /* Home.swift */; };
+		02C1C2D227D1C814009A425F /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 02C1C2D127D1C814009A425F /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		02C1C2C027D1BF54009A425F /* SwiftDemosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemosUITests.swift; sourceTree = "<group>"; };
 		02C1C2C227D1BF54009A425F /* SwiftDemosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		02C1C2CF27D1C111009A425F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		02C1C2D127D1C814009A425F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				02C1C2A027D1BF52009A425F /* SwiftDemosApp.swift */,
 				02C1C2A227D1BF52009A425F /* ContentView.swift */,
 				02C1C2CF27D1C111009A425F /* Home.swift */,
+				02C1C2D127D1C814009A425F /* Readme.md */,
 				02C1C2A427D1BF53009A425F /* Assets.xcassets */,
 				02C1C2A927D1BF53009A425F /* Persistence.swift */,
 				02C1C2AB27D1BF53009A425F /* SwiftDemos.xcdatamodeld */,
@@ -242,6 +245,7 @@
 			files = (
 				02C1C2A827D1BF53009A425F /* Preview Assets.xcassets in Resources */,
 				02C1C2A527D1BF53009A425F /* Assets.xcassets in Resources */,
+				02C1C2D227D1C814009A425F /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
