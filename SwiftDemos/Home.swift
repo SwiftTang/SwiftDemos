@@ -12,11 +12,19 @@ struct Home: View {
     var body: some View {
         TabView(selection: $selection) {
             Color.red
+                .tabItem({
+                    Text("Red")
+                })
                 .tag("Red")
-
             Color.green
+                .tabItem({
+                    Text("Green")
+                })
                 .tag("Green")
             Color.blue
+                .tabItem({
+                    Text("Blue")
+                })
                 .tag("Blue")
         }
 
