@@ -8,7 +8,18 @@
 import SwiftUI
 
 struct Home: View {
+    @State var selection = ""
     var body: some View {
-        Text("Home View")
+        TabView(selection: $selection) {
+            Color.red
+                .tag("Red")
+
+            Color.green
+                .tag("Green")
+            Color.blue
+                .tag("Blue")
+        }
+
+
     }
 }
