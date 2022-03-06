@@ -1,5 +1,5 @@
 ### 开启Cloud Kit
-> 在选择`Host in CloudKit`后，完成下述步骤开启Cloudkit：
+> 对创建项目时选择了`Host in CloudKit`的项目，按下述步骤开启Cloudkit订阅：
 >  * 1. 在app id中启动iCloud 和 Push Notifications *
 >  * 2. 在xcode 项目capabilities中启动 `CloutKit` 和 `remoto notifications` *
 >  * 3. 在Cloud Kit中添加 ` Record Type` *
